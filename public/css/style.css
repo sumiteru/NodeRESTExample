@@ -1,0 +1,102 @@
+body {
+  padding-top: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #EEE;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.game{
+	border-left: 4px #9D0000 solid;
+	padding: 10px;
+	background: #EAEAEA;
+	box-shadow: 6px 2px 11px 2px #888;
+	max-height:215px;
+	min-height:215px;	
+	margin-bottom:50px;
+}
+
+.animate-leave
+{ 
+	-webkit-animation: slideOff 1s;
+} 
+
+.animate-leave.animate-leave-active
+{ 
+	-webkit-animation: slideOff 1s;
+} 
+
+
+.new-game{
+	border-left: 4px #04009D solid
+}
+
+.game .logo{
+	margin-left:auto;
+	margin-right:auto;
+	max-height:80px;
+	margin-bottom:15px;
+}
+
+.image-button{
+	cursor:pointer;
+	font-size:14px;
+	margin-right:8px;
+}
+
+.form-control{
+	font-size:12px;
+	height:25px;
+	margin-bottom:7px;
+}
+
+.search-form{
+	margin-left:-12px;
+	margin-bottom:30px;
+}
+
+.form{
+	white-space:nowrap;
+	position: absolute;
+	max-height:215px;
+	min-height:215px;
+	margin: -10px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.update-form{
+	background: rgb(255, 240, 211);
+}
+
+.remove-form{
+	background: rgb(255, 211, 211);
+}
+
+.form .buttons{
+	width:150px;
+}
+
+.padding-10{
+	padding:10px;
+}
+
+.form.ng-hide-remove{
+	-webkit-animation: slideOn 1s;
+}
+
+.form.ng-hide-add{
+	-webkit-animation: slideOff 1s;
+}
+
+@-webkit-keyframes slideOn{
+	from { width: 0px;}
+	to {width: 100%;}
+}
+
+@-webkit-keyframes slideOff{
+	from { width: 100%;}
+	to {width: 0px;}
+}
